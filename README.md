@@ -1,9 +1,11 @@
 <h3 align="center">
-    <img src="https://github.com/Dwarf1er/onedark/blob/master/assets/logos/onedark-logo-1544x1544.png" width="100" alt="onedark logo"/></br>
+    <img src="https://raw.githubusercontent.com/Dwarf1er/onedark/master/assets/logos/onedark-logo-1544x1544.png" width="100" alt="onedark logo"/></br>
     OneDark
 </h3>
 
-OneDark is an open-source theme inspired by the iconic [Atom One Dark UI](https://github.com/atom/atom/tree/master/packages/one-dark-ui) theme and the Neovim port [OneDark.nvim](https://github.com/navarasu/onedark.nvim). This theme is moody without sacrificing its colorful aspect, making it perfect to style a terminal, editor, or any other application!
+<p align="center">
+    OneDark is an open-source theme inspired by the iconic <a href="https://github.com/atom/atom/tree/master/packages/one-dark-ui">Atom One Dark UI</a> theme and the Neovim port <a href="https://github.com/navarasu/onedark.nvim">OneDark.nvim</a>. This theme is moody without sacrificing its colorful aspect, making it perfect to style a terminal, editor, or any other application!
+</p>
 
 ### 🧠 Design Philosophy
 
