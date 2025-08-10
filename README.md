@@ -41,4 +41,4 @@ OneDark is licensed under the [MIT license](LICENSE)
 
 - [Atom One Dark](https://github.com/atom/atom/tree/master/packages/one-dark-ui): the original one dark theme.
 - [OneDark.nvim](https://github.com/navarasu/onedark.nvim): the Neovim port that inspired this project.
-- [Catppuccin](https://github.com/catppuccin/catppuccin): the theme that inspired the structure and documentation of this project.
+- [Catppuccin](https://github.com/catppuccin/catppuccin): inspired the structure, design terminology, and documentation style used in this project’s color specification. This project adapts Catppuccin’s design language under the MIT license.
