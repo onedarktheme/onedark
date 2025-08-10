@@ -37,7 +37,7 @@ OneDark offers 4 distinct palettes, which we call grim tones, each with its own 
 
 OneDark is licensed under the [MIT license](LICENSE)
 
-### Acknowledgements
+### 🙏 Acknowledgements
 
 - [Atom One Dark](https://github.com/atom/atom/tree/master/packages/one-dark-ui): the original one dark theme.
 - [OneDark.nvim](https://github.com/navarasu/onedark.nvim): the Neovim port that inspired this project.
