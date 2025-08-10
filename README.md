@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img src="https://raw.githubusercontent.com/Dwarf1er/onedark/master/assets/logos/onedark-logo-1544x1544.png" width="100" alt="onedark logo"/></br>
+    <img src="https://raw.githubusercontent.com/onedarktheme/onedark/master/assets/logos/onedark-logo-1544x1544.png" width="100" alt="onedark logo"/></br>
     OneDark
 </h3>
 
