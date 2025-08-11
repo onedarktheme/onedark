@@ -3,6 +3,14 @@
     OneDark
 </h3>
 
+<h6 align="center">
+    <a href="https://github.com/onedarktheme/onedark#-palette">Palette</a>
+</h6>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/onedarktheme/master/assets/palette/dark.png" width="400" />
+</p>
+
 <p align="center">
     OneDark is an open-source theme inspired by the iconic <a href="https://github.com/atom/atom/tree/master/packages/one-dark-ui">Atom One Dark UI</a> theme and the Neovim port <a href="https://github.com/navarasu/onedark.nvim">OneDark.nvim</a>. This theme is moody without sacrificing its colorful aspect, making it perfect to style a terminal, editor, or any other application!
 </p>
