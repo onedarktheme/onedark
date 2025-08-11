@@ -8,7 +8,7 @@
 </h6>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/onedarktheme/master/assets/palette/dark.png" width="400" />
+    <img src="https://raw.githubusercontent.com/onedarktheme/onedark/master/assets/palette/dark.png" width="400" />
 </p>
 
 <p align="center">
