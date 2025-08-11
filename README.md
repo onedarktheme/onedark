@@ -3,6 +3,12 @@
     OneDark
 </h3>
 
+<p align="center">
+    <a href="https://github.com/onedarktheme/onedark/stargazers"><img src="https://img.shields.io/github/stars/onedarktheme/onedark?colorA=282c34&colorB=c678dd&style=for-the-badge"></a>
+    <a href="https://github.com/onedarktheme/onedark/issues"><img src="https://img.shields.io/github/issues/onedarktheme/onedark?colorA=282c34&colorB=d19a66&style=for-the-badge"></a>
+    <a href="https://github.com/onedarktheme/onedark/contributors"><img src="https://img.shields.io/github/contributors/onedarktheme/onedark?colorA=282c34&colorB=98c379&style=for-the-badge"></a>
+</p>
+
 <h6 align="center">
     <a href="https://github.com/onedarktheme/onedark#-palette">Palette</a>
 </h6>
@@ -23,7 +29,7 @@
 
 ### 🎨 Palette
 
-OneDark offers 4 distinct palettes, which we call **grim tones**, each with its own mood and personality. These have been selected from the original 7 palettes found in Atom's One Dark theme. The set was reduced to focus on the most distinct ones and make maintenance easier. Whether you want to apply it to your terminal, code editor, or other apps, these palettes will bring a cohesive dark and stylish vibe.
+**OneDark** offers 4 distinct palettes, which we call **grim tones**, each with its own mood and personality. These have been selected from the original 7 palettes found in Atom's One Dark theme. The set was reduced to focus on the most distinct ones and make maintenance easier. Whether you want to apply it to your terminal, code editor, or other apps, these palettes will bring a cohesive dark and stylish vibe! Additionally, this repository tracks the developement of the palette, project's documentation, organization assets and resources for developers.
 
 <details><summary>🌑 Dark</summary>
 <table>
