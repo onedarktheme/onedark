@@ -697,7 +697,7 @@
 
 ### 📜 License
 
-OneDark is licensed under the [MIT license](LICENSE)
+OneDark is licensed under the [MIT license](LICENSE).
 
 ### 🙏 Acknowledgements
 
