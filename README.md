@@ -11,6 +11,8 @@
 
 <h6 align="center">
     <a href="https://github.com/onedarktheme/onedark#-palette">Palette</a>
+	·
+	<a href="https://github.com/onedarktheme/onedark/tree/master/docs">Docs</a>
 </h6>
 
 <p align="center">

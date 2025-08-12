@@ -8,3 +8,6 @@ OneDark is an open-source theme inspired by the iconic [Atom One Dark UI](https:
 - [Design Framework](/docs/design-framework.md)
 - [Palette Specification Sheets](/docs/palette-spec-sheets.md)
 - [Port Creation Guide](/docs/port-creation-guide.md)
+
+---
+<img src="https://raw.githubusercontent.com/onedarktheme/onedark/master/assets/banners/onedark-social-preview-1280x640.png" alt="onedark social preview" height="400px"/>
