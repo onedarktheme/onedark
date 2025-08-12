@@ -1,0 +1,26 @@
+name: Port Submission
+description: Created a OneDark port? Submit it here!
+title: "Name of the application being ported"
+body:
+    - type: input
+      attributes:
+          label: Repository URL
+          description: Drop the link to your OneDark port's repository.
+          placeholder: https://github.com/user/example.git
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Screenshots
+          description: Include screenshots of your awesome new port in action!
+    - type: textarea
+      attributes:
+          label: Anything else we should know?
+          description: Add any other relevant information.
+    - type: checkboxes
+      attributes:
+          label: Confirmation
+          description: By submitting this port for review, you confirm that you have read [OneDark's port creation guide](https://github.com/onedarktheme/onedark/blob/master/docs/port-creation-guide.md) and followed all instructions.
+          options:
+              - label: I confirm that I have read OneDark's port creation guide and followed all instructions.
+                required: true
