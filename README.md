@@ -697,6 +697,10 @@
 </table>
 </details>
 
+### 🤝 Contributing
+
+If you would like to submit a port or learn how to port OneDark to an application, see the [port creation guide](https://github.com/onedarktheme/onedark/blob/master/docs/port-creation-guide.md).
+
 ### 📜 License
 
 OneDark is licensed under the [MIT license](LICENSE).
