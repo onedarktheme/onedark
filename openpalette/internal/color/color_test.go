@@ -1,10 +1,10 @@
-package colors_test
+package color_test
 
 import (
 	"math"
 	"testing"
 
-	"github.com/onedarktheme/onedark/palettegen/internal/utils/colors"
+	"github.com/onedarktheme/onedark/openpalette/internal/color"
 )
 
 func TestHexToRGB(t *testing.T) {
@@ -22,7 +22,7 @@ func TestHexToRGB(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		r, g, b, err := colors.HexToRGB(tt.hex)
+		r, g, b, err := color.HexToRGB(tt.hex)
 		if tt.shouldFail {
 			if err == nil {
 				t.Errorf("HexToRGB(%q) expected error but got none", tt.hex)
@@ -56,7 +56,7 @@ func TestRGBToHSL(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		h, s, l := colors.RGBToHSL(tt.r, tt.g, tt.b)
+		h, s, l := color.RGBToHSL(tt.r, tt.g, tt.b)
 
 		// Allow tiny floating-point differences
 		if math.Abs(h-tt.wantH) > 0.5 {

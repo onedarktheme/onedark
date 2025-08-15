@@ -1,30 +1,35 @@
-package builders
+package builder
 
 import (
 	"encoding/json"
 	"fmt"
 	"os"
 
-	"github.com/onedarktheme/onedark/openpalette/internal/utils/colors"
+	"github.com/onedarktheme/onedark/openpalette/internal/color"
+	"github.com/onedarktheme/onedark/openpalette/internal/model"
 )
+
+type PaletteBuilder struct {
+	palette model.Palette
+}
 
 func NewPaletteBuilder(version string) *PaletteBuilder {
 	return &PaletteBuilder{
-		palette: Palette{
+		palette: model.Palette{
 			Version:  version,
-			Variants: make(map[string]PaletteVariant),
+			Variants: make(map[string]model.PaletteVariant),
 		},
 	}
 }
 
 func (pb *PaletteBuilder) AddVariant(name, emoji string, dark bool, order int) {
-	pb.palette.Variants[name] = PaletteVariant{
+	pb.palette.Variants[name] = model.PaletteVariant{
 		Name:       name,
 		Emoji:      emoji,
 		Order:      order,
 		Dark:       dark,
-		Colors:     make(map[string]ColorDefinition),
-		AnsiColors: make(map[string]ANSI),
+		Colors:     make(map[string]model.ColorDefinition),
+		AnsiColors: make(map[string]model.ANSI),
 	}
 }
 
@@ -34,18 +39,18 @@ func (pb *PaletteBuilder) AddColor(variantName, colorName, hex string, accent bo
 		return fmt.Errorf("variant %s not found", variantName)
 	}
 
-	r, g, b, err := colors.HexToRGB(hex)
+	r, g, b, err := color.HexToRGB(hex)
 	if err != nil {
 		return err
 	}
 
-	h, s, l := colors.RGBToHSL(int(r), int(g), int(b))
+	h, s, l := color.RGBToHSL(int(r), int(g), int(b))
 
-	variant.Colors[colorName] = ColorDefinition{
+	variant.Colors[colorName] = model.ColorDefinition{
 		Name:   colorName,
 		Hex:    hex,
-		RGB:    RGB{R: r, G: g, B: b},
-		HSL:    HSL{H: h, S: s, L: l},
+		RGB:    model.RGB{R: r, G: g, B: b},
+		HSL:    model.HSL{H: h, S: s, L: l},
 		Accent: accent,
 		Order:  order,
 	}
