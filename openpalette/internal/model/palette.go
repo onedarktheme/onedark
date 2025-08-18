@@ -1,9 +1,9 @@
 package model
 
 type RGB struct {
-	R uint8 `json:"r"`
-	G uint8 `json:"g"`
-	B uint8 `json:"b"`
+	R int `json:"r"`
+	G int `json:"g"`
+	B int `json:"b"`
 }
 
 type HSL struct {
@@ -14,23 +14,26 @@ type HSL struct {
 
 type ColorDefinition struct {
 	Name   string `json:"name"`
+	Order  int    `json:"order"`
 	Hex    string `json:"hex"`
 	RGB    RGB    `json:"rgb"`
 	HSL    HSL    `json:"hsl"`
 	Accent bool   `json:"accent"`
-	Order  int    `json:"order"`
 }
 
-type ColorDefinitionWithCode struct {
-	ColorDefinition
-	Code int `json:"code"`
+type AnsiColorDefinition struct {
+	Name string `json:"name"`
+	Hex  string `json:"hex"`
+	RGB  RGB    `json:"rgb"`
+	HSL  HSL    `json:"hsl"`
+	Code int    `json:"code"`
 }
 
 type ANSI struct {
-	Name   string                  `json:"name"`
-	Order  int                     `json:"order"`
-	Normal ColorDefinitionWithCode `json:"normal"`
-	Bright ColorDefinitionWithCode `json:"bright"`
+	Name   string              `json:"name"`
+	Order  int                 `json:"order"`
+	Normal AnsiColorDefinition `json:"normal"`
+	Bright AnsiColorDefinition `json:"bright"`
 }
 
 type PaletteVariant struct {
@@ -42,7 +45,9 @@ type PaletteVariant struct {
 	AnsiColors map[string]ANSI            `json:"ansiColors"`
 }
 
-type Palette struct {
-	Version  string                    `json:"version"`
-	Variants map[string]PaletteVariant `json:"variants"`
+type Palette map[string]PaletteVariant
+
+type Root struct {
+	Version string `json:"version"`
+	Palette
 }
